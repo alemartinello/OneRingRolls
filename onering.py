@@ -79,7 +79,9 @@ def success_table(
 
 ## Dashboard proper
 
-st.title('One Ring rolls')
+st.title('The One Ring rolls')
+
+st.write("See [The One Ring](https://freeleaguepublishing.com/en/games/the-one-ring/) RPG game.")
 
 roll_type = st.selectbox(
      'Feat roll type',
@@ -88,7 +90,7 @@ roll_type = st.selectbox(
 
 weary = st.checkbox('Weary')
 miserable = st.checkbox('Miserable')
-st.write("**Probability of success by number of feat dice**")
+st.write("**Probability of success by number of success dice**")
 st.write(
     success_table(
         roll=roll_type,
