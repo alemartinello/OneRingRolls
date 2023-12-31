@@ -13,7 +13,7 @@ def roll_base_dice(n):
     return d6, d12
 
 d6, d12 = roll_base_dice(n)
-target_list = list(range(12, 23))
+target_list = list(range(11, 23))
 n_success_dice_list = list(range(1, 6))
 
 
